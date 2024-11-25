@@ -1,0 +1,4 @@
+mini_cp <in> <out> [-m]
+    -m - write mode: p - fcntl | c - cstdio | f - fstream, nb - without system buffer
+example (writing without buf with fcntl lib):
+    mini_cp testIn testOut -m pnb
